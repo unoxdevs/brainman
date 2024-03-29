@@ -1,0 +1,38 @@
+{
+  "name": "brainman",
+  "version": "1.5.0",
+  "description": "Brainman is a fast and simple to use AI & personal assistant.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ai",
+    "chatbot",
+    "chat",
+    "bot",
+    "assistant",
+    "unoxdevs",
+    "brainman",
+    "gpt",
+    "chatgpt",
+    "gpt4",
+    "free ai",
+    "free chatbot",
+    "free gpt"
+  ],
+  "author": "UnoxDevs",
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^4.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unoxdevs/brainman.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unoxdevs/brainman/issues"
+  },
+  "homepage": "https://github.com/unoxdevs/brainman#readme"
+}
