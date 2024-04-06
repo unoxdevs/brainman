@@ -6,16 +6,26 @@ Brainman is a fast and simple to use AI & personal assistant.
 npm install brainman
 ```
 
+## 🎉 Updates
+- New versions added.
+- Minor bugs fixed.
+
+## ⏳ Upcoming Updates
+- Image creation command will be added.
+- Other versions of AI will be added.
+
 ## 🚀 Start
 ```js
 const brainman = require("brainman");
 
-async function brainmanStart() {
-    const response = await brainman("what's your name?");
-    console.log(response);
+async function brainmanStart(prompt) {
+    /* 'v4', 'v3-turbo', 'v4-32k' */
+    await brainman.chat({ version: "v4", prompt: prompt }).then(response => {
+        console.log(response);
+    })
 }
 
-brainmanStart();
+brainmanStart("hello")
 ```
 
 ## 🛠️ Support

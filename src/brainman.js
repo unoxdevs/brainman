@@ -1,15 +1,15 @@
 const fetch = require("cross-fetch");
 
-/**
- * A function that sends a request to a chat API endpoint based on the prompt provided, and returns the response data.
- *
- * @param {string} prompt - The prompt for the chat API.
- * @return {Promise} The response data from the chat API.
- */
-const brainman = async (prompt) => {
-    const response = await fetch(`http://brainman.only-fans.club/chat/${prompt}`);
-    const data = await response.json();
-    return data;
+module.exports = {
+    /**
+     * A function that sends a question to the server and retrieves the response.
+     *
+     * @param {Object} options - An object containing the prompt and version for the question.
+     * @return {Promise} A Promise that resolves to the data retrieved from the server.
+     */
+    chat: async (options) => {
+        return fetch(`https://brainman.vercel.app/chat/${options.prompt}/version/${options.version}`)
+        .then(response => response.json())
+        .then(data => data)
+    }
 }
-
-module.exports = brainman;
