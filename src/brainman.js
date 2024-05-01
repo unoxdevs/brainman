@@ -1,15 +1,15 @@
-const fetch = require("cross-fetch");
+const fetch = require('cross-fetch');
 
 module.exports = {
-    /**
-     * A function that sends a question to the server and retrieves the response.
-     *
-     * @param {Object} options - An object containing the prompt and version for the question.
-     * @return {Promise} A Promise that resolves to the data retrieved from the server.
-     */
-    chat: async (options) => {
-        return fetch(`https://brainman.vercel.app/chat/${options.prompt}/version/${options.version}`)
-        .then(response => response.json())
-        .then(data => data)
-    }
-}
+  chat: async (options) => {
+    const response = await fetch(`https://brainman-web-1.onrender.com/chat/${options.prompt}/version/${options.version}`);
+    const data = await response.json();
+    return data;
+  },
+
+  imagine: async (propmt) => {
+    const response = await fetch(`https://brainman-web-1.onrender.com/imagine/${propmt}`);
+    const data = await response.json();
+    return data;
+  }
+};

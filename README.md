@@ -1,5 +1,5 @@
 # 🤖 Brainman
-Brainman is a fast and simple to use AI & personal assistant. 
+Brainman is a fast and simple to use AI & personal assistant.
 
 ## 📦 Install
 ```bash
@@ -7,25 +7,37 @@ npm install brainman
 ```
 
 ## 🎉 Updates
-- New versions added.
-- Minor bugs fixed.
+- Image creation added.
+- Fixed minor bugs in chat.
 
 ## ⏳ Upcoming Updates
-- Image creation command will be added.
-- Other versions of AI will be added.
+- Website to be made.
+- More versions to be added.
 
 ## 🚀 Start
 ```js
-const brainman = require("brainman");
+// Chat with Brainman
+const brainman = require('brainman');
 
 async function brainmanStart(prompt) {
-    /* 'v4', 'v3-turbo', 'v4-32k' */
-    await brainman.chat({ version: "v4", prompt: prompt }).then(response => {
-        console.log(response);
-    })
+  // 'v4', 'v3-turbo', 'v4-32k'
+  await brainman.chat({ version: "v4", prompt: prompt }).then(response => {
+    console.log(response);
+  })
 }
 
-brainmanStart("hello")
+brainmanStart("hello");
+
+
+// Imagine with Brainman
+async function brainmanImagine(prompt) {
+  // Enter the prompt for an image you want to create.
+  await brainman.imagine(prompt).then(response => {
+    console.log(response);
+  })
+}
+
+brainmanImagine("A beautiful sunset over the ocean.");
 ```
 
 ## 🛠️ Support
