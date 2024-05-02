@@ -7,18 +7,17 @@ npm install brainman
 ```
 
 ## 🎉 Updates
-- Image creation added.
-- Fixed minor bugs in chat.
+- Added "stablediffusion" and "dalle" version to "imagine" command.
+- Minor fixes to the "imagine" command.
 
 ## ⏳ Upcoming Updates
 - Website to be made.
-- More versions to be added.
 
 ## 🚀 Start
 ```js
-// Chat with Brainman
 const brainman = require('brainman');
 
+// Chat with Brainman
 async function brainmanStart(prompt) {
   // 'v4', 'v3-turbo', 'v4-32k'
   await brainman.chat({ version: "v4", prompt: prompt }).then(response => {
@@ -31,8 +30,8 @@ brainmanStart("hello");
 
 // Imagine with Brainman
 async function brainmanImagine(prompt) {
-  // Enter the prompt for an image you want to create.
-  await brainman.imagine(prompt).then(response => {
+  // 'stablediffusion', 'dalle'
+  await brainman.imagine({ version: "stablediffusion", prompt: prompt }).then(response => {
     console.log(response);
   })
 }
