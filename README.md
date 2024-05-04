@@ -1,4 +1,3 @@
-![Banner](https://www.upload.ee/image/16593705/BRAINMAN.png)
 # 🤖 Brainman
 Brainman is a fast and simple to use AI & personal assistant.
 
@@ -45,8 +44,7 @@ brainmanImagine('a cat', 'dalle');
 - [Discord](https://discord.gg/9yYPF6BXt7)
 - [GitHub](https://github.com/unoxdevs/brainman)
 - [Telegram](https://t.me/unoxdevs)
-
-<a href="https://www.buymeacoffee.com/queaxtra" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 150px !important;" ></a>
+- [Buy me a coffee](https://www.buymeacoffee.com/queaxtra)
 
 ## © Copyright
 This project was created by [UnoxDevs](https://github.com/unoxdevs/brainman) and all source code rights are owned by [UnoxDevs](https://github.com/unoxdevs/brainman) and [Queaxtra](https://github.com/queaxtra).
