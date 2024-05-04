@@ -1,6 +1,6 @@
 {
   "name": "brainman",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "Brainman is a fast and simple to use AI & personal assistant.",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,7 @@
   "author": "UnoxDevs",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.8",
-    "cross-fetch": "^4.0.0"
+    "axios": "^1.6.8"
   },
   "repository": {
     "type": "git",
