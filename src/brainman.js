@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
   chat: async (options) => {
-    const response = await axios.post("https://brainman.unoxdevs.fun/chat", {
+    const response = await axios.post("https://brainman.only-fans.club/chat", {
       prompt: options.prompt,
       version: options.version
     });
@@ -10,7 +10,7 @@ module.exports = {
   },
 
   imagine: async (options) => {
-    const response = await axios.post("https://brainman.unoxdevs.fun/imagine", {
+    const response = await axios.post("https://brainman.only-fans.club/imagine", {
       prompt: options.prompt,
       version: options.version
     });

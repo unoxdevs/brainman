@@ -1,13 +1,19 @@
 # 🤖 Brainman
 Brainman is a fast and simple to use AI & personal assistant.
 
+![NPM Downloads](https://img.shields.io/npm/dm/brainman?style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/brainman?style=flat-square)
+![NPM License](https://img.shields.io/npm/l/brainman?style=flat-square)
+![GitHub Repo stars](https://img.shields.io/github/stars/unoxdevs/brainman?style=flat-square)
+
+
 ## 📦 Install
 ```bash
 npm install brainman
 ```
 
 ## 🎉 Updates
-- Fixed a few bugs in Chat and Imagine commands.
+- Fixed a few bugs.
 
 ## ⏳ Upcoming Updates
 - Website to be made.
