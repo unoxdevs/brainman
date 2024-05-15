@@ -13,10 +13,11 @@ npm install brainman
 ```
 
 ## 🎉 Updates
-- Fixed a few bugs.
+- Gemini model added.
+- Website is done. [Click](https://brainman.unoxdevs.fun)
 
 ## ⏳ Upcoming Updates
-- Website to be made.
+- Discord bot will be made.
 
 ## 🚀 Start
 ```js
@@ -26,7 +27,7 @@ const brainman = require('brainman');
 async function brainmanStart(prompt, version) {
     const response = await brainman.chat({
         prompt: prompt,
-        version: version // v3-turbo, v4, v4-32k
+        version: version // v3-turbo, v4, v4-32k, gemini
     });
     console.log(response);
 }
