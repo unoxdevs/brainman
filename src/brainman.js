@@ -4,7 +4,8 @@ module.exports = {
   chat: async (options) => {
     const response = await axios.post("https://brainman.only-fans.club/chat", {
       prompt: options.prompt,
-      version: options.version
+      version: options.version,
+      category: options.category
     });
     return response.data;
   },

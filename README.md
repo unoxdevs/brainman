@@ -5,6 +5,7 @@ Brainman is a fast and simple to use AI & personal assistant.
 ![npm bundle size](https://img.shields.io/bundlephobia/min/brainman?style=flat-square)
 ![NPM License](https://img.shields.io/npm/l/brainman?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/unoxdevs/brainman?style=flat-square)
+![Uptime](https://uptime.betterstack.com/status-badges/v2/monitor/184np.svg)
 
 
 ## 📦 Install
@@ -13,8 +14,8 @@ npm install brainman
 ```
 
 ## 🎉 Updates
-- Gemini model added.
-- Website is done. [Click](https://brainman.unoxdevs.fun)
+- DALLE version was built from scratch and bugs were fixed.
+- Category option added. You can now specify which category you want the chat to be in.
 
 ## ⏳ Upcoming Updates
 - Discord bot will be made.
@@ -24,15 +25,16 @@ npm install brainman
 const brainman = require('brainman');
 
 // Chat with Brainman
-async function brainmanStart(prompt, version) {
+async function brainmanStart(prompt, version, category) {
     const response = await brainman.chat({
         prompt: prompt,
-        version: version // v3-turbo, v4, v4-32k, gemini
+        version: version, // v3-turbo, v4, v4-32k, gemini
+        category: category // software, entertainment, food, travel etc.
     });
     console.log(response);
 }
 
-brainmanStart('hello', 'v4');
+brainmanStart('create a basic html code', 'v4', 'software');
 
 
 // Imagine with Brainman
@@ -46,6 +48,10 @@ async function brainmanImagine(prompt, version) {
 
 brainmanImagine('a cat', 'dalle');
 ```
+
+## 🖥️ Usage Website
+![Screenshot](https://www.upload.ee/image/16637434/Queaxtra_02.png)
+- [Website Link](https://brainman.unoxdevs.fun)
 
 ## 🛠️ Support
 - [Discord](https://discord.gg/9yYPF6BXt7)
