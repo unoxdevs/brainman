@@ -1,13 +1,14 @@
 # 🤖 Brainman
 Brainman is a fast and simple to use AI & personal assistant.
 
-[Support Brainman](https://www.buymeacoffee.com/queaxtra): We need your help to keep the project alive.
-
 ![NPM Downloads](https://img.shields.io/npm/dm/brainman?style=flat-square)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/brainman?style=flat-square)
 ![NPM License](https://img.shields.io/npm/l/brainman?style=flat-square)
 ![GitHub Repo stars](https://img.shields.io/github/stars/unoxdevs/brainman?style=flat-square)
 
+## 🤝 Sponsor
+We would like to thank [HOSTUDE](https://hostude.net/) for sponsoring this project.
+![Sponsor](https://www.upload.ee/image/16645795/Sponsor.png)
 
 ## 📦 Install
 ```bash
@@ -50,8 +51,8 @@ brainmanImagine('a cat', 'dalle');
 ```
 
 ## 🖥️ Usage Website
-![Screenshot](https://www.upload.ee/image/16637434/Queaxtra_02.png)
-- [Website Link](https://brainman.unoxdevs.fun)
+You can also use Brainman online [by clicking on this link](https://brainman.unoxdevs.fun).
+![Screenshot](https://www.upload.ee/image/16645812/Queaxtra_43.png)
 
 ## 🛠️ Support
 - [Discord](https://discord.gg/9yYPF6BXt7)
