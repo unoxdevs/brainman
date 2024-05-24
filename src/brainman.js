@@ -4,8 +4,7 @@ module.exports = {
   chat: async (options) => {
     const response = await axios.post("http://ai.unoxdevs.fun:3000/chat", {
       prompt: options.prompt,
-      version: options.version,
-      category: options.category
+      version: options.version
     });
     return response.data;
   },

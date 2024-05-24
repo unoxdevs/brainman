@@ -16,38 +16,40 @@ npm install brainman
 ```
 
 ## 🎉 Updates
-- API link has been changed.
-
-## ⏳ Upcoming Updates
-- Discord bot will be made.
+- Category option was removed because it was unnecessary.
+- LeoLM model added.
+- Minor bugs fixed.
+- Rate limiter has been added, now you can only send 500 requests in 1 minute.
+- Chat and image creation logging system has been completely changed.
+- API has been accelerated, now you can chat or create images faster.
+- A separate rate limiter has been added to the Gemini version.
 
 ## 🚀 Start
 ```js
 const brainman = require('brainman');
 
 // Chat with Brainman
-async function brainmanStart(prompt, version, category) {
+async function brainmanStart(prompt, version) {
     const response = await brainman.chat({
         prompt: prompt,
-        version: version, // v3-turbo, v4, v4-32k, gemini
-        category: category // software, entertainment, food, travel etc.
+        version: version, // v3-turbo, v4, v4-32k, gemini, leo
     });
     console.log(response);
 }
 
-brainmanStart('create a basic html code', 'v4', 'software');
+brainmanStart('create a basic html code', 'v4');
 
 
 // Imagine with Brainman
 async function brainmanImagine(prompt, version) {
     const response = await brainman.imagine({
         prompt: prompt,
-        version: version // stablediffusion, dalle
+        version: version // sd, dalle
     });
     console.log(response);
 }
 
-brainmanImagine('a cat', 'dalle');
+brainmanImagine('a cat', 'sd');
 ```
 
 ## 🖥️ Usage Website
