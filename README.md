@@ -16,6 +16,7 @@ npm install brainman
 ```
 
 ## 🎉 Updates
+- API has been updated.
 - Category option was removed because it was unnecessary.
 - LeoLM model added.
 - Minor bugs fixed.
