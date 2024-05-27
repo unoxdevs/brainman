@@ -1,6 +1,6 @@
 {
   "name": "brainman",
-  "version": "1.6.7",
+  "version": "1.6.8",
   "description": "Brainman is a fast and simple to use AI & personal assistant.",
   "main": "index.js",
   "scripts": {

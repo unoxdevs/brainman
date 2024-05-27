@@ -55,7 +55,6 @@ brainmanImagine('a cat', 'sd');
 
 ## 🖥️ Usage Website
 You can also use Brainman online [by clicking on this link](https://brainman.unoxdevs.fun).
-![Screenshot](https://www.upload.ee/image/16645812/Queaxtra_43.png)
 
 ## 🛠️ Support
 - [Discord](https://discord.gg/9yYPF6BXt7)
