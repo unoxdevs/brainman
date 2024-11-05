@@ -1,6 +1,6 @@
 {
   "name": "brainman",
-  "version": "1.6.8",
+  "version": "1.7.0",
   "description": "Brainman is a fast and simple to use AI & personal assistant.",
   "main": "index.js",
   "scripts": {
@@ -19,13 +19,12 @@
     "gpt4",
     "free ai",
     "free chatbot",
-    "free gpt",
-    "gemini"
+    "free gpt"
   ],
   "author": "UnoxDevs",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.7.2"
+    "axios": "^1.7.7"
   },
   "repository": {
     "type": "git",
@@ -34,5 +33,5 @@
   "bugs": {
     "url": "https://github.com/unoxdevs/brainman/issues"
   },
-  "homepage": "https://discord.gg/aryU9AxarS"
+  "homepage": "https://discord.gg/b9gS3r7XuJ"
 }
