@@ -7,21 +7,23 @@ npm install brainman
 ```
 
 ## 🎉 Updates
-- API has been updated.
-- Minor bugs fixed.
+- Major API improvements for faster and more accurate responses.
+- Enhanced error handling for smoother user experience.
+- Fixed minor bugs and performance issues.
 
 ## 🚀 Start
 ```js
 const brainman = require("brainman");
 
-async function chat(prompt) {
+async function chat(prompt, version) {
     const response = await brainman.chat({
+        version: version, // v1 or v2
         prompt: prompt,
     });
     console.log(response);
 }
 
-chat(`what's your name?`);
+chat(`what's your name?`, 'v2');
 ```
 
 ## 🛠️ Support
